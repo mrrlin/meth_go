@@ -23,10 +23,14 @@
 
 .list__item:nth-child(odd):after {
   content: url(../img/open-purple.svg);
+  display: inline-block;
+  width: 46px;
+  height: 46px;
 }
 
 .list__item:nth-child(even):after {
   content: url(../img/open.svg);
   display: inline-block;
   width: 46px;
+  height: 46px;
 }

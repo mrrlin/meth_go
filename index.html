@@ -16,11 +16,11 @@
   
       <nav>
         <ul>
-          <li><a href="#">Залы</a></li>
-          <li><a href="#">О нас</a></li>
-          <li><a href="#">Бронь</a></li>
-          <li><a href="#">Отзывы</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a href="#halls">Залы</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#reservation">Бронь</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#contacts">Контакты</a></li>
         </ul>
       </nav>
     </header>
@@ -74,18 +74,18 @@
         </ul>
       </section>
       
-      <section>
+      <section id="halls">
         <h2>Наши залы</h2>
         
         <ol>
-          <li><a href="#">80's vibes</a></li>
-          <li><a href="#">Star wars</a></li>
-          <li><a href="#">Wild west</a></li>
-          <li><a href="#">Neon style</a></li>
+          <li><a href="vibes.html">80's vibes</a></li>
+          <li><a href="starwars.html">Star wars</a></li>
+          <li><a href="wildwest.html">Wild west</a></li>
+          <li><a href="neon.html">Neon style</a></li>
         </ol>  
       </section>
       
-      <section>
+      <section id="reservation">
         <h2>Забронировать зал просто</h2>
         <form 
           action="https://jsonplaceholder.typicode.com/posts"
@@ -197,19 +197,21 @@
         </form>
       </section>
   
-      <section>
+      <section id="about">
         <h2>О нас</h2>
+
         <p>Для наших гостей мы создали <i>концептуально новое игровое пространство 
           виртуальной реальности</i> в центральной части города.</p>
         <p>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу 
           и радовать Вас топовыми игровыми разработками со всего мира.</p>
+
         <blockquote class="quote">
           <p><b>GAME OVER</b> - это место незабываемых впечатлений</p>
           <cite>Аркадий Абакашкин, создатель игровой территории GAME OVER</cite>
         </blockquote>
       </section>
   
-      <section>
+      <section id="reviews">
         <h2>Отзывы посетителей</h2>
         
         <ul>
@@ -271,14 +273,18 @@
     </main>
     
     <footer>
-      <h2>Контакты</h2>
-      <p>г. Москва ул. Аквамарина, 16</p>
-      <p><a href="#">8(950)930-28-93</a></p>
-      <p><a href="#">GameOver@gmail.com</a></p>
-      <ul>
-        <li><a href="#">Vkontakte</a></li>
-        <li><a href="#">Telegram</a></li>
-      </ul>
+      <section id="contacts">
+        <h2>Контакты</h2>
+
+        <p>г. Москва ул. Аквамарина, 16</p>
+        <p><a href="tel:89509302893">8(950)930-28-93</a></p>
+        <p><a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a></p>
+
+        <ul>
+          <li><a href="https://vk.com">Vkontakte</a></li>
+          <li><a href="https://telegram.org">Telegram</a></li>
+        </ul>
+      </section>
     </footer>
   </div>
 </body>

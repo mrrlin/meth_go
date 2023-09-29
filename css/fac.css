@@ -2,18 +2,28 @@
   padding-left: 40px;
 }
 
+.list {
+  padding: 0;
+  margin: 0;
+}
+
 .list__item {
   list-style: none;
   background-color: #fff;
   color: #1C1A1A;
   font-weight: 700;
   font-size: 24px;
-  padding: 30px 70px;
-  margin-bottom: 20px;
+  line-height: 28px;
+  padding: 30px 70px 29px;
+  height: 87px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.list__item:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .list__item:nth-child(even) {

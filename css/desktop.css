@@ -1,0 +1,262 @@
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+/* BANNER */
+.banner {
+  background-image: url(../img/person-vr.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 762px;
+  min-height: 823px;
+}
+
+.banner__title {
+  font-size: 150px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -15px;
+  line-height: 150px;
+  margin: 0;
+}
+
+.banner__description {
+  font-size: 28px;
+  line-height: 50px;
+  margin: 0;
+  margin-left: 100px;
+}
+
+/* HALLS */
+.halls__title {
+  margin-bottom: 60px;
+}
+
+.halls__list {
+  list-style: none;
+}
+
+.halls__list-item {
+  padding: 275px 477px;
+  min-height: 710px;
+}
+
+.halls__list-item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.halls__text {
+  display: block;
+  max-width: 211px;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.halls__list-item--vibes {
+  background-image: url(../img/80vibes.jpg);
+}
+
+.halls__list-item--starwars {
+  background-image: url(../img/star-wars.jpg);
+}
+
+.halls__list-item--wildwest {
+  background-image: url(../img/wild-west.jpg);
+}
+
+.halls__list-item--neon {
+  background-image: url(../img/neon-style.jpg);
+}
+
+/* RESERVATION */
+.reservation {
+  font-size: 16px;
+}
+.reservation__title {
+  margin-bottom: 50px;
+}
+
+/* ABOUT */
+.about::after {
+  content: "";
+  display: block;
+  clear: right;
+}
+
+.about__text-wrapper {
+  margin-bottom: 78px;
+}
+
+.about__text {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.about__text--top {
+  margin-bottom: 30px;
+}
+
+.quote {
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.quote p {
+  margin: 0;
+  margin-left: 25px;
+}
+
+.quote-wrapper {
+  margin-bottom: 40px;
+}
+
+.quote-wrapper {
+  position: relative;
+}
+
+.quote-wrapper:before {
+  position: absolute;
+  content: url("../img/quotes.svg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  left: 0;
+}
+
+.quote__text {
+  position: relative;
+}
+
+.quote__text:after {
+  transform: rotate(180deg); 
+  position: absolute;
+  top: 25px;
+  content: url("../img/quotes.svg");
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+.quote__author {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.quote__author-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: 100% 22%;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: left;
+}
+
+.quote__author-caption {
+  display: inline-block;
+}
+
+.quote__author-text {
+  max-width: 280px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+/* FAQ */
+.question-block__title {
+  margin-bottom: 40px;
+}
+
+/* CONTACTS */
+.contacts__title {
+  margin-bottom: 54px;
+}
+
+.contacts__wrapper {
+  margin-bottom: 40px;
+}
+
+.contacts__item {
+  position: relative;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+  padding-left: 65px;
+}
+
+.contacts__item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts__city {
+  margin-bottom: 38px;
+}
+
+.contacts__number {
+  margin-bottom: 11px;
+}
+
+.contacts__item::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); 
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.contacts__city::before {
+  background-image: url(../img/location.svg);
+}
+
+.contacts__number::before {
+  background-image: url(../img/phone.svg);
+}
+
+.contacts__email::before {
+  background-image: url(../img/mail.svg);
+}
+
+.social-list {
+  list-style: none;
+  font-size: 0;
+  padding: 0;
+}
+
+.social-list__item {
+  display: inline-block;
+}
+
+.social-list__link {
+  color: inherit;
+}
+
+.social-list__link:hover {
+  color: #cd06ff;
+}
+
+.social-list__item:not(:last-child) {
+  margin-right: 26px;
+}

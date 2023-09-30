@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
 }
 
-.section {
-  margin-bottom: 100px;
+.section:not(:first-child) {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

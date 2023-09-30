@@ -4,6 +4,7 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
+  margin: 0;
 }
 
 /* BANNER */
@@ -46,6 +47,8 @@
 
 .halls__list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .halls__list-item {
@@ -59,7 +62,7 @@
 
 .halls__text {
   display: block;
-  max-width: 211px;
+  max-width: 222px;
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
@@ -100,6 +103,10 @@
   clear: right;
 }
 
+.about__title {
+  margin-bottom: 50px;
+}
+
 .about__text-wrapper {
   margin-bottom: 78px;
 }
@@ -107,6 +114,7 @@
 .about__text {
   line-height: 28px;
   text-align: justify;
+  margin: 0;
 }
 
 .about__text--top {
@@ -118,11 +126,12 @@
   line-height: 50px;
   text-transform: uppercase;
   text-align: justify;
+  margin: 0;
 }
 
 .quote p {
   margin: 0;
-  margin-left: 25px;
+  padding-left: 55px;
 }
 
 .quote-wrapper {
@@ -188,9 +197,14 @@
 /* FAQ */
 .question-block__title {
   margin-bottom: 40px;
+  padding: 0;
 }
 
 /* CONTACTS */
+.contacts {
+  padding-top: 50px;
+}
+
 .contacts__title {
   margin-bottom: 54px;
 }
@@ -248,6 +262,7 @@
 }
 
 .social-list {
+  display: inline-block;
   list-style: none;
   font-size: 0;
   padding: 0;

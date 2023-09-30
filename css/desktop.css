@@ -4,7 +4,6 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  margin: 0;
 }
 
 /* BANNER */
@@ -33,14 +32,12 @@
   text-transform: uppercase;
   letter-spacing: -15px;
   line-height: 150px;
-  margin: 0;
   padding: 0;
 }
 
 .banner__description {
   font-size: 28px;
   line-height: 50px;
-  margin: 0;
   padding-left: 100px;
 }
 
@@ -56,7 +53,7 @@
 }
 
 .halls__list-item {
-  padding: 275px 477px;
+  padding: 275px 448px;
 }
 
 .halls__list-item:not(:last-child) {
@@ -69,7 +66,6 @@
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;
-  color: inherit;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -117,7 +113,6 @@
 .about__text {
   line-height: 28px;
   text-align: justify;
-  margin: 0;
 }
 
 .about__text--top {
@@ -132,44 +127,38 @@
   margin: 0;
 }
 
-.quote p {
-  margin: 0;
+.quote{
+  position: relative;
+  margin-bottom: 40px;
   padding-left: 55px;
 }
 
-.quote-wrapper {
-  margin-bottom: 40px;
+.quote:before,
+.quote:after {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #6C0287;
 }
 
-.quote-wrapper {
-  position: relative;
-}
-
-.quote-wrapper:before {
+.quote::before {
+  content: "“";
   position: absolute;
-  content: url("../img/quotes.svg");
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+  top: -11px;
   left: 0;
 }
 
 .quote__text {
-  position: relative;
+  display: inline-block;
 }
 
-.quote__text:after {
-  transform: rotate(180deg); 
-  position: absolute;
-  top: 25px;
-  content: url("../img/quotes.svg");
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+.quote:after {
+  content: "”";
   margin-left: 15px;
 }
 
-figure .quote__author {
+.quote__author {
   padding: 0;
   margin: 0;
   margin-block-start: 0;
@@ -196,10 +185,7 @@ figure .quote__author {
 
 .quote__author-text {
   display: inline-block;
-  font-weight: 400;
-  font-size: 20px;
   line-height: 28px;
-  margin: 0;
 }
 
 /* FAQ */
@@ -227,13 +213,7 @@ figure .quote__author {
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  margin: 0;
   padding-left: 65px;
-}
-
-.contacts__item a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .contacts__city {
@@ -271,17 +251,11 @@ figure .quote__author {
 
 .social-list {
   display: inline-block;
-  list-style: none;
   font-size: 0;
-  padding: 0;
 }
 
 .social-list__item {
   display: inline-block;
-}
-
-.social-list__link {
-  color: inherit;
 }
 
 .social-list__link:hover {

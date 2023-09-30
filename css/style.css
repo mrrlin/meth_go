@@ -55,10 +55,11 @@ h1, h2, h3, p, figure, fieldset {
   overflow: hidden ;
 }
 
-.wrapper {
-  width: 1440px;
-  padding: 146px 130px;
+.container {
   margin: 0 auto;
+  padding-top: 146px;
+  padding-bottom: 51px;
+  width: 1180px;
 }
 
 .section:not(:first-child) {

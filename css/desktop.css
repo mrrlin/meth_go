@@ -52,8 +52,7 @@
 }
 
 .halls__list-item {
-  padding: 275px 477px;
-  min-height: 710px;
+  padding: 275px 449px;
 }
 
 .halls__list-item:not(:last-child) {
@@ -62,7 +61,7 @@
 
 .halls__text {
   display: block;
-  max-width: 222px;
+  width: 222px;
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;

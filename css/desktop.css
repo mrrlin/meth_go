@@ -7,39 +7,7 @@
 }
 
 /* BANNER */
-.banner {
-  padding-bottom: 50px;
-}
 
-.banner-wrapper {
-  min-height: 823px;
-  position: relative;
-}
-
-.banner-wrapper::before {
-  content: "";
-  width: 675px;
-  height: 762px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: url("../img/person-vr.png") no-repeat;
-}
-
-.banner__title {
-  font-size: 150px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: -15px;
-  line-height: 150px;
-  padding: 0;
-}
-
-.banner__description {
-  font-size: 28px;
-  line-height: 50px;
-  padding-left: 100px;
-}
 
 /* HALLS */
 .halls__title {

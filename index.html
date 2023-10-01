@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css" />
     <title>GO</title>
   </head>
-
-  <!-- поменять инпуты на чекбоксы в нейминге -->
   <body>
     <div class="container">
       <main>
@@ -138,7 +137,7 @@
         </section>
 
         <section class="about section" id="about">
-          <h2 class="about__title title">О нас</h2>
+          <h2 class="about__title">О нас</h2>
 
           <div class="about__text-wrapper">
             <p class="about__text about__text--top">
@@ -153,7 +152,7 @@
             </p>
           </div>
 
-          <blockquote class="quote">
+          <blockquote class="about__quote quote">
             <p class="quote__text">GAME OVER &mdash;</p>
             <p class="quote__text">это место незабываемых впечатлений</p>
           </blockquote>
@@ -166,41 +165,38 @@
           </figure>
         </section>
 
-        <section class="question-block section">
-          <h2 class="question-block__title title">Частые вопросы</h2>
+        <section class="question section">
+          <h2 class="question__title">Частые вопросы</h2>
 
-          <ul class="list">
-            <li class="list__item">Можно ли забронировать комнату онлайн?</li>
-            <li class="list__item">Могут ли мне вернуть деньги за бронь?</li>
-            <li class="list__item">Какая комната самая популярная?</li>
-            <li class="list__item">Как получить VIP карту?</li>
-            <li class="list__item">Какая комната самая популярная?</li>
+          <ul class="question__list">
+            <li class="question__list-item">Можно ли забронировать комнату онлайн?</li>
+            <li class="question__list-item">Могут ли мне вернуть деньги за бронь?</li>
+            <li class="question__list-item">Какая комната самая популярная?</li>
+            <li class="question__list-item">Как получить VIP карту?</li>
+            <li class="question__list-item">Какая комната самая популярная?</li>
           </ul>
         </section>
       </main>
 
       <footer>
         <section class="contacts" id="contacts">
-          <h2 class="contacts__title title">Контакты</h2>
+          <h2 class="contacts__title">Контакты</h2>
 
           <address class="contacts__wrapper">
               <p class="contacts__item contacts__city">г. Москва <br> ул. Аквамарина, 16</p>
             <p class="contacts__item contacts__number">
-              <a href="tel:89509302893"
-                >8(950)930-28-93</a
-              >
+              <a class="contacts__link" href="tel:89509302893">8(950)930-28-93</a>
             </p>
             <p class="contacts__item contacts__email">
-              <a href="mailto:GameOver@gmail.com">
-                GameOver@gmail.com
-              </a>
+              <a class="contacts__link" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
             </p>
           </address>
 
-          <ul class="social-list">
+          <ul class="contacts__social-list social-list">
             <li class="social-list__item">
               <a class="social-list__link" href="https://vk.com">
                 <svg
+                  class="social-list__svg"
                   width="50"
                   height="50"
                   viewBox="0 0 50 50"
@@ -216,6 +212,7 @@
             <li class="social-list__item">
               <a class="social-list__link" href="https://telegram.org">
                 <svg
+                  class="social-list__svg"
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
@@ -231,6 +228,7 @@
             <li class="social-list__item">
               <a class="social-list__link" href="https://pinterest.com">
                 <svg
+                  class="social-list__svg"
                   width="50"
                   height="50"
                   viewBox="0 0 50 50"
@@ -246,6 +244,7 @@
             <li class="social-list__item">
               <a class="social-list__link" href="https://sv.org">
                 <svg
+                  class="social-list__svg"
                   width="50"
                   height="50"
                   viewBox="0 0 50 50"

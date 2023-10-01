@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.banner-wrapper::before {
+.banner__title::before {
   content: "";
   width: 675px;
   height: 762px;
@@ -53,7 +53,7 @@
 }
 
 .halls__list-item {
-  padding: 275px 448px;
+  padding: 275px 477px;
 }
 
 .halls__list-item:not(:last-child) {
@@ -197,6 +197,7 @@
 /* CONTACTS */
 .contacts {
   padding-top: 50px;
+  padding-bottom: 51px;
 }
 
 .contacts__title {

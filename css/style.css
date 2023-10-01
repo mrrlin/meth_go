@@ -66,5 +66,6 @@ h1, h2, h3, p, figure, fieldset {
 }
 
 .section:first-child {
+  padding-bottom: 50px;
   padding-top: 146px;
 }

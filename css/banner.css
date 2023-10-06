@@ -1,13 +1,9 @@
-.banner {
-  padding-bottom: 50px;
-}
-
-.banner__wrapper {
-  min-height: 823px;
+.banner .container {
+  height: 823px;
   position: relative;
 }
 
-.banner__wrapper::before {
+.banner__title:before {
   content: "";
   width: 675px;
   height: 762px;

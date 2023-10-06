@@ -57,12 +57,16 @@ h1, h2, h3, p, figure, fieldset {
 
 .container {
   margin: 0 auto;
-  padding-top: 146px;
-  padding-bottom: 51px;
-  width: 1180px;
+  max-width: 1240px;
+  padding: 0 30px;
 }
 
 .section:not(:first-child) {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.section:first-child {
+  padding-bottom: 50px;
+  padding-top: 146px;
 }

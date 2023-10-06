@@ -1,3 +1,14 @@
+.about__img {
+  display: inline-block;
+  width: 600px;
+  /* height: 596px; */
+  margin-right: 80px;
+}
+.about__wrapper {
+  float: right;
+  width: 500px;
+}
+
 .about::after {
   content: "";
   display: block;
@@ -14,16 +25,16 @@
 }
 
 .about__text-wrapper {
-  margin-bottom: 78px;
+  margin-bottom: 59px;
 }
 
 .about__text {
   line-height: 28px;
-  text-align: justify;
+  margin-bottom: 30px;
 }
 
-.about__text--top {
-  margin-bottom: 30px;
+.about__text:last-child {
+  margin-bottom: 0;
 }
 
 .quote {
@@ -36,7 +47,7 @@
 
 .quote{
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 39px;
   padding-left: 55px;
 }
 
@@ -56,8 +67,15 @@
   left: 0;
 }
 
+.quote:after {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+}
+
 .quote__text {
   display: inline-block;
+  text-align: initial;
 }
 
 .quote:after {
@@ -65,7 +83,7 @@
   margin-left: 15px;
 }
 
-.quote__author {
+.about__author {
   padding: 0;
   margin: 0;
   margin-block-start: 0;
@@ -75,7 +93,7 @@
   float: right;
 }
 
-.quote__author-img {
+.about__author-img {
   width: 80px;
   height: 80px;
   object-fit: cover;
@@ -85,12 +103,13 @@
   float: left;
 }
 
-.quote__author-caption {
+.about__author-caption {
   display: inline-block;
   max-width: 235px;
 }
 
-.quote__author-text {
+.about__author-text {
   display: inline-block;
   line-height: 28px;
+  font-style: normal;
 }

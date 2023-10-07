@@ -8,22 +8,36 @@
 }
 
 .halls__list {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .halls__list-item {
-  padding: 275px 457px;
+  display: inline-block;
+  width: 580px;
+  height: 349px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  padding: 135px 66px;
 }
 
-.halls__list-item:not(:last-child) {
-  margin-bottom: 60px;
+.halls__list-item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+
+.halls__list-item:nth-child(2n) {
+  float: right;
+}
+
+.halls__list-item:nth-last-child(2),
+.halls__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .halls__text {
   display: block;
-  max-width: 222px;
+  max-width: 448px;
   font-size: 70px;
   font-weight: 700;
   line-height: 80px;

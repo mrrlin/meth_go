@@ -1,7 +1,10 @@
 .about__img {
+  background-image: url(../img/imges.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
   display: inline-block;
   width: 600px;
-  /* height: 596px; */
+  height: 596px;
   margin-right: 80px;
 }
 .about__wrapper {

@@ -3,7 +3,9 @@ html {
   position: relative;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -61,12 +63,7 @@ h1, h2, h3, p, figure, fieldset {
   padding: 0 30px;
 }
 
-.section:not(:first-child) {
+.section {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.section:first-child {
-  padding-bottom: 50px;
-  padding-top: 146px;
 }

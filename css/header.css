@@ -1,0 +1,37 @@
+.header {
+  padding-top: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.menu__list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header__button {
+  border-radius: 10px;
+  border: 3px solid #cd06ff;
+  background-color: #1b1a1b;
+  color: inherit;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 12px 31px 13px 31px;
+}

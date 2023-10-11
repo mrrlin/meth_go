@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.banner__title:before {
+.banner .container:before {
   content: "";
   width: 675px;
   height: 762px;
@@ -26,4 +26,52 @@
   font-size: 28px;
   line-height: 50px;
   padding-left: 100px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__item-title {
+  color: #CD06FF;
+  font-size: 75px;
+  font-weight: 900;
+  font-variant: all-small-caps;
+  line-height: 92px;
+}
+
+.feature__item-title--padding-bottom {
+  display: flex;
+  align-items:center;
+}
+
+.feature__item-title--big {
+  font-size: 100px;
+  line-height: 141px;
+}
+
+.feature__item-text {
+  width: 195px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.banner__button {
+  border-radius: 10px;
+  background: #6C0287;
+  color: inherit;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 25px 69px;
+  /* filter: blur(10px); */
 }

@@ -5,6 +5,7 @@
 .header__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__menu {
@@ -30,7 +31,6 @@
   background-color: #1b1a1b;
   color: inherit;
   text-transform: uppercase;
-  line-height: 30px;
   font-weight: 700;
   font-size: 22px;
   padding: 12px 31px 13px 31px;

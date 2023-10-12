@@ -1,11 +1,44 @@
 .reservation {
-  font-size: 16px;
+  background-color: #440f51;
 }
+
 .reservation__title {
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+
+.fieldset-hall__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.fieldset-hall__wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 60px; */
+}
+
+.fieldset-hall__input{
+  display: none;
+}
+
+.fieldset-hall__label {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 8px;
+  color: #000;
+  background-color: #fff;
+  padding: 7px 15px 8px;
 }

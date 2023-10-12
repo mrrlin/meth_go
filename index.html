@@ -16,20 +16,20 @@
 
           <nav class="header__menu menu">
             <ul class="menu__list">
-              <li class="menu__list-item list-item">
-                <a href="" class="list-item__text">Залы</a>
+              <li class="menu__list-item">
+                <a href="" class="menu__list-text">Залы</a>
               </li>
-              <li class="menu__list-item list-item">
-                <a href="" class="list-item__text">О нас</a>
+              <li class="menu__list-item">
+                <a href="" class="menu__list-text">О нас</a>
               </li>
-              <li class="menu__list-item list-item">
-                <a href="" class="list-item__text">Бронь</a>
+              <li class="menu__list-item">
+                <a href="" class="menu__list-text">Бронь</a>
               </li>
-              <li class="menu__list-item list-item">
-                <a href="" class="list-item__text">Отзывы</a>
+              <li class="menu__list-item">
+                <a href="" class="menu__list-text">Отзывы</a>
               </li>
-              <li class="menu__list-item list-item">
-                <a href="" class="list-item__text">Контакты</a>
+              <li class="menu__list-item">
+                <a href="" class="menu__list-text">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -78,56 +78,32 @@
           <ul class="entertainment__list">
             <li class="entertainment__list-item list-item list-item--vr">
               <p class="list-item__text">VR очки</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/vr.jpg" alt="VR">  
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
             </li>
     
             <li class="entertainment__list-item list-item list-item--audio">
-              <p class="list-item__text">Аудио-система 5.1 с отличным звуком</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/audio.jpg" alt="Аудио-система">
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
+              <p class="list-item__text list-item__text--padding-6">Аудио-система 5.1 с отличным звуком</p>
             </li>
     
             <li class="entertainment__list-item list-item list-item--karaoke">
               <p class="list-item__text">Караоке (4 микрофона)</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/micro.jpg" alt="Микрофон">
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
             </li>
     
             <li class="entertainment__list-item list-item list-item--board-games">
               <p class="list-item__text">Настольные игры</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/game.jpg" alt="Настольные игры">
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
             </li>
     
             <li class="entertainment__list-item list-item list-item--movie">
-              <p class="list-item__text">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/netflix.jpg" alt="Netflix">
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
+              <p class="list-item__text list-item__text--padding-6">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
             </li>
     
             <li class="entertainment__list-item list-item list-item--playstation">
               <p class="list-item__text">PlayStation 5</p>
-              <!-- <figure class="entertainment__img-wrapper">
-                <img class="entertainment__img" src="img/sony.jpg" alt="Sony">
-                <figcaption class="entertainment__img-text"></figcaption>
-              </figure> -->
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="halls section" id="halls">
+      <section class="halls section--padding-b100 section" id="halls">
         <div class="container">
           <h2 class="halls__title">Наши залы</h2>
 
@@ -148,7 +124,7 @@
         </div>
       </section>
 
-      <section class="reservation section" id="reservation">
+      <section class="reservation section section--padding-80" id="reservation">
         <div class="container">
           <h2 class="reservation__title">Забронировать</h2>
 
@@ -159,26 +135,39 @@
             <fieldset class="reservation__fieldset-hall fieldset-hall">
               <legend class="fieldset-hall__title">Выбери зал</legend>
 
-              <input
-                class="fieldset-hall__input"
-                type="radio"
-                name="hall"
-                value="80's vibes" />80's vibes
-              <input
-                class="fieldset-hall__input"
-                type="radio"
-                name="hall"
-                value="star wars" />star wars
-              <input
-                class="fieldset-hall__input"
-                type="radio"
-                name="hall"
-                value="wild west" />wild west
-              <input
-                class="fieldset-hall__input"
-                type="radio"
-                name="hall"
-                value="neon style" />neon style
+              <fieldset class="fieldset-hall__wrapper">
+                  <label for="80vibes" class="fieldset-hall__label">80’s vibes</label>
+                  <input
+                    class="fieldset-hall__input"
+                    id="80vibes"
+                    type="radio"
+                    name="hall"
+                    value="80’s vibes" />
+
+                  <label for="star-wars" class="fieldset-hall__label">star wars</label>
+                  <input
+                    class="fieldset-hall__input"
+                    id="star-wars"
+                    type="radio"
+                    name="hall"
+                    value="star wars" />
+  
+                  <label for="wild-west" class="fieldset-hall__label">wild west</label>
+                  <input
+                    class="fieldset-hall__input"
+                    id="wild-west"
+                    type="radio"
+                    name="hall"
+                    value="wild west" />
+  
+                  <label for="neon-style" class="fieldset-hall__label">neon style</label>
+                  <input
+                    class="fieldset-hall__input"
+                    id="neon-style"
+                    type="radio"
+                    name="hall"
+                    value="neon style" />
+              </fieldset>
             </fieldset>
 
             <fieldset

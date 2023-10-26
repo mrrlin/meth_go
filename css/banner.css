@@ -66,6 +66,7 @@
 }
 
 .banner__button {
+  display: inline-block;
   border-radius: 10px;
   background: #6C0287;
   color: inherit;

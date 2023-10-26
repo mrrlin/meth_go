@@ -2,7 +2,7 @@
   padding-top: 30px;
 }
 
-.header__wrapper {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;

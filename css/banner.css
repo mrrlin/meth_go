@@ -31,7 +31,7 @@
 
 .feature {
   display: flex;
-  gap: 22px;
+  gap: 40px;
   margin-bottom: 150px;
 }
 
@@ -45,7 +45,7 @@
 
 .feature__item-title {
   color: #CD06FF;
-  font-size: 62px;
+  font-size: 75px;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 92px;
@@ -54,6 +54,10 @@
 .feature__item-title--big {
   font-size: 100px;
   line-height: 141px;
+}
+
+.feature__item-title--small-caps {
+  font-variant: all-small-caps;
 }
 
 .feature__item-text {

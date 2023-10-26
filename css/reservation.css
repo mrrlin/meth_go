@@ -1,5 +1,6 @@
 .reservation {
   background-color: #440f51;
+  padding: 80px 0;
 }
 
 .reservation__title {
@@ -11,7 +12,12 @@
   margin-bottom: 40px;
 }
 
-.fieldset-hall__title {
+.reservation__inner-wrapper {
+  display: flex;
+  padding: 0;
+}
+
+.reservation__fieldset-title {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
@@ -19,21 +25,19 @@
   margin-bottom: 40px;
 }
 
-.fieldset-hall__wrapper {
-  display: flex;
+/* _________________________________halls */
+.fieldset-hall {
   justify-content: space-between;
-  /* gap: 60px; */
-}
-
-.fieldset-hall__input{
-  display: none;
+  gap: 60px;
+  margin-bottom: 60px;
 }
 
 .fieldset-hall__label {
-  text-align: center;
+  flex: 0 1 250px;
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
+  text-align: center;
   text-transform: uppercase;
   cursor: pointer;
   user-select: none;
@@ -42,3 +46,185 @@
   background-color: #fff;
   padding: 7px 15px 8px;
 }
+
+/* _________________________________entertainment */
+.fieldset-entertainment {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.fieldset-entertainment {
+  justify-content: space-around;
+  gap: 100px;
+  margin-bottom: 60px;
+}
+
+.reservation__fieldset-title--column {
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.fieldset-entertainment__column {
+  flex-direction: column;
+  flex-basis: 300px;
+  font-size: 22px;
+  gap: 20px;
+}
+
+.fieldset-entertainment__label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fieldset-entertainment__input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.fieldset-entertainment__checkbox {
+  width: 27px;
+  height: 27px;
+}
+
+/* _________________________________info */
+.fieldset-info {
+  max-width: 980px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 40px 50px;
+  margin: 0 auto;
+}
+
+.fieldset-info__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.fieldset-info__column:nth-child(even) {
+  flex: 0 1 300px;
+}
+
+.fieldset-info__column:nth-child(odd) {
+  flex: 0 1 280px;
+}
+
+.fieldset-info__column--gap36 {
+  gap: 36px;
+}
+
+.fieldset-info__row {
+  display: flex;
+  gap: 32px;
+  max-width: 300px;
+  padding: 0;
+}
+
+.fieldset-info__label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 6px;
+}
+
+.fieldset-info__input {
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  border: none;
+  color: #211e1e;
+  padding: 12px 20px;
+}
+
+.fieldset-info__input--width134 {
+  max-width: 134px;
+}
+
+.fieldset-info__input--icon-arrow {
+  background-image: url(../img/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-size: 21px 15px;
+  background-position: center right 27px;
+}
+
+.fieldset-info__input--margin-b14 {
+  margin-bottom: 14px;
+}
+
+
+
+
+
+.fieldset-info__input::-webkit-outer-spin-button,
+.fieldset-info__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.fieldset-info__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.fieldset-info__input::-webkit-datetime-edit {
+  display: flex;
+  max-height: 28px;
+  cursor: text;
+}
+
+.fieldset-info__input::-webkit-calendar-picker-indicator {
+  width: 21px;
+  height: 28px;
+  padding: 0;
+  margin: 0 7px 0 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.fieldset-info__input::placeholder {
+  font-size: 18px;
+  line-height: 28px;
+  color: #211e1e;
+}
+
+
+
+
+
+
+.reservation__form-button {
+  align-self: flex-start;
+  border-radius: 10px;
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #6C0287;
+  padding: 16px 50px;
+}
+
+/* .fieldset-info {
+  flex-wrap: wrap;
+  gap: 34px 50px;
+}
+
+.fieldset-info__label {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-basis: 300px;
+}
+
+.fieldset-info__label--small {
+  flex-basis: 134px;
+}
+
+.fieldset-info__input {
+  font-family: inherit;
+  height: 52px;
+  padding: 5px;
+} */

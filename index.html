@@ -16,19 +16,19 @@
         <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a href="" class="menu__list-text">Залы</a>
+              <a href="#halls" class="menu__list-text">Залы</a>
             </li>
             <li class="menu__list-item">
-              <a href="" class="menu__list-text">О нас</a>
+              <a href="#about" class="menu__list-text">О нас</a>
             </li>
             <li class="menu__list-item">
-              <a href="" class="menu__list-text">Бронь</a>
+              <a href="#reservation" class="menu__list-text">Бронь</a>
             </li>
             <li class="menu__list-item">
-              <a href="" class="menu__list-text">Отзывы</a>
+              <a href="#reviews" class="menu__list-text">Отзывы</a>
             </li>
             <li class="menu__list-item">
-              <a href="" class="menu__list-text">Контакты</a>
+              <a href="#contacts" class="menu__list-text">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -108,25 +108,33 @@
           <ul class="halls__list">
             <li class="halls__list-item halls__list-item--vibes">
               <h3 class="halls__list-subtitle">
-                <a class="halls__text" href="vibes.html">80's vibes</a>
+                <a class="halls__link" href="vibes.html">
+                  <p class="halls__text">80's vibes</p>
+                </a>
               </h3>
             </li>
             <li class="halls__list-item halls__list-item--starwars">
               
               <h3 class="halls__list-subtitle">
-                <a class="halls__text" href="starwars.html">Star wars</a>
+                <a class="halls__link" href="starwars.html">
+                  <p class="halls__text">Star wars</p>
+                </a>
               </h3>
             </li>
             <li class="halls__list-item halls__list-item--wildwest">
               
               <h3 class="halls__list-subtitle">
-                <a class="halls__text" href="wildwest.html">Wild west</a>
+                <a class="halls__link" href="wildwest.html">
+                  <p class="halls__text">Wild west</p>
+                </a>
               </h3>
             </li>
             <li class="halls__list-item halls__list-item--neon">
               
               <h3 class="halls__list-subtitle">
-                <a class="halls__text" href="neon.html">Neon style</a>
+                <a class="halls__link" href="neon.html">
+                  <p class="halls__text">Neon style</p>
+                </a>
               </h3>
             </li>
           </ul>
@@ -294,7 +302,6 @@
 
               <fieldset class="fieldset-info__column fieldset-info__column--gap36">
                 <fieldset class="fieldset-info__row">
-                  <!-- <label class="fieldset-info__label fieldset-info__label--small" for="date"> -->
                   <input
                     class="fieldset-info__input fieldset-info__input--width134 fieldset-info__input--icon-arrow"
                     type="date"
@@ -302,9 +309,7 @@
                     id="date"
                     placeholder="Дата"
                     required>
-                  <!-- </label> -->
     
-                  <!-- <label class="fieldset-info__label fieldset-info__label--small" for="time"> -->
                   <input
                     class="fieldset-info__input fieldset-info__input--width134 fieldset-info__input--icon-arrow"
                     type="time"
@@ -312,9 +317,8 @@
                     id="time"
                     required
                     inputmode="numeric">
-                  <!-- </label> -->
                 </fieldset>
-                <!-- <label class="fieldset-info__label" for="count"> -->
+
                 <input
                   class="fieldset-info__input fieldset-info__input--icon-arrow"
                   type="text"
@@ -323,7 +327,6 @@
                   placeholder="Сколько человек"
                   required
                   inputmode="numeric">
-                <!-- </label> -->
               </fieldset>
 
               <fieldset class="fieldset-info__column">
